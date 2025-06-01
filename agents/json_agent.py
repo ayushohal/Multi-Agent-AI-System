@@ -6,7 +6,7 @@ from utils.llm_utils import generate_response
 memory = SharedMemory()
 
 INVOICE_TARGET_SCHEMA_FIELDS = ["invoice_number", "date", "customer_name", "items", "total_amount"]
-COMPLAINT_TARGET_SCHEMA_FIELDS = ["complaint_id", "order_id", "customer_name", "date", "message", "urgency"]
+COMPLAINT_TARGET_SCHEMA_FIELDS = ["complaint_id", "order_id", "customer_name", "date"]
 
 def clean_llm_response(text):
     cleaned = re.sub(r"```json\s*(.*?)```", r"\1", text, flags=re.DOTALL).strip()
