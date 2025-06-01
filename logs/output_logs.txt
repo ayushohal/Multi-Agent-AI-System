@@ -1,0 +1,23 @@
+(venv) C:\Ayush\College Work\Projects\Multi-Agent AI System>python main.py sample_inputs/sample_email1.txt
+Classified format: Email, intent: Complaint
+Processing result:
+{'sender': 'ayush.ohal@example.com', 'intent': 'Complaint', 'urgency': 'High', 'summary': 'The sender is complaining about a delayed order (TN-54821) that was supposed to arrive on May 25th. The delay is impacting a scheduled client demo, and the sender expects immediate clarification and a revised delivery estimate.'}
+
+(venv) C:\Ayush\College Work\Projects\Multi-Agent AI System>python main.py sample_inputs/sample_json1.json
+Classified format: JSON, intent: Complaint
+Processing result:
+{'missing_fields': ['order_id'], 'anomalies': [], 'llm_response': '{\n  "missing_fields": [\n    "order_id"\n  ],\n  "anomalies": [],\n  "original_json": {\n    "complaint_id": "CMP-2025-RJ-002",\n    "customer_name": "Sneha Kapoor",\n    "email": "sneha.kapoor@example.in",\n    "phone": "+91-9876543210",\n    "issue_type": "Train Delay",\n    "description": "The train 12952 (MMCT Rajdhani Express) was delayed by over 5 hours on 26th May 2025 without any prior notification. I had to miss an important meeting in Delhi.",\n    "date": "2025-05-26",\n    "location": "Mumbai Central Station",\n    "resolution_requested": "Refund of ticket amount or compensation voucher",\n    "submitted_on": "2025-05-27"\n  }\n}'}
+
+(venv) C:\Ayush\College Work\Projects\Multi-Agent AI System>python main.py sample_inputs/sample_json2.json
+Classified format: JSON, intent: Invoice
+Processing result:
+{'missing_fields': [], 'anomalies': ['Total mismatch: expected 200, found 100'], 'llm_response': '{\n  "missing_fields": [],\n  "anomalies": [],\n  "original_json": {\n    "invoice_number": "INV-2025-06",\n    "date": "2025-06-01",\n    "customer_name": "Ayush Ohal",\n    "items": [\n      {\n        "item": "A",\n        "quantity": 5,\n        "price": 20\n      },\n      {\n        "item": "B",\n        "quantity": 2,\n        "price": 50\n      }\n    ],\n    "total_amount": 100\n  }\n}'}
+
+(venv) C:\Ayush\College Work\Projects\Multi-Agent AI System>python main.py sample_inputs/sample_pdf1.pdf  
+CropBox missing from /Page, defaulting to MediaBox
+CropBox missing from /Page, defaulting to MediaBox
+Classified format: PDF, intent: Company Profile
+CropBox missing from /Page, defaulting to MediaBox
+CropBox missing from /Page, defaulting to MediaBox
+Processing result:
+{'document_type': 'Company Profile', 'key_topics': ['AI', 'software solutions', 'automation', 'services', 'company profile'], 'summary': 'This document is a company profile for TechNova Solutions, a provider of AI-driven enterprise software and automation solutions. It details their services, key industries served, leadership team, achievements, and contact information.'}
