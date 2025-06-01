@@ -41,4 +41,4 @@ This repository contains a multi-agent AI system designed to classify, analyze, 
 
 5. Logs and Output
     
-   Processed results and logs are saved in the memory.db SQLite database and can be viewed using any SQLite viewer. Sample output logs are stored in logs/
+   Processed results and logs are saved in the memory.db SQLite database and can be viewed using any SQLite viewer. Sample output logs are stored in logs/output_logs.txt and the sample output screenshot of SQLite database entries logged into the database memory.db is stored in logs/output_screenshot.jpg.
