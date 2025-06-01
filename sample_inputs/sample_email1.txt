@@ -1,0 +1,15 @@
+From: ayush.ohal@example.com  
+To: support@company.com  
+Subject: Urgent Complaint: Delayed Delivery of My Order  
+
+Dear Support Team,
+
+I am writing to express my dissatisfaction regarding the delayed delivery of my recent order (Order ID: TN-54821), which was supposed to arrive on May 25th. As of today, I have not received any updates or the product itself.
+
+This delay is highly inconvenient as the equipment was meant for a scheduled client demo. I expect immediate clarification and a revised delivery estimate. Please treat this as a high-priority issue.
+
+Looking forward to a swift resolution.
+
+Sincerely,  
+Ayush Ohal
+ayush.ohal@example.com 
