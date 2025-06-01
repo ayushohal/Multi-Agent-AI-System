@@ -1,0 +1,10 @@
+{
+  "invoice_number": "INV-2025-06",
+  "date": "2025-06-01",
+  "customer_name": "Ayush Ohal",
+  "items": [
+    {"item": "A", "quantity": 5, "price": 20},
+    {"item": "B", "quantity": 2, "price": 50}
+  ],
+  "total_amount": 100
+}

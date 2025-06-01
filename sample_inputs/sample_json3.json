@@ -1,0 +1,22 @@
+{
+  "invoice_number": "INV-IND-2025-001",
+  "date": "2025-05-28",
+  "customer_name": "Yash Gawali",
+  "customer_email": "yash@example.in",
+  "billing_address": "Flat 302, Shree Residency, Pune, Maharashtra, India",
+  "items": [
+    {
+      "item": "Web Hosting",
+      "quantity": 1,
+      "price": 1500
+    },
+    {
+      "item": "Domain Registration (.in)",
+      "quantity": 1,
+      "price": 700
+    }
+  ],
+  "total_amount": 2200,
+  "currency": "INR",
+  "payment_status": "Paid"
+}

@@ -1,0 +1,12 @@
+{
+  "complaint_id": "CMP-2025-RJ-002",
+  "customer_name": "Sneha Kapoor",
+  "email": "sneha.kapoor@example.in",
+  "phone": "+91-9876543210",
+  "issue_type": "Train Delay",
+  "description": "The train 12952 (MMCT Rajdhani Express) was delayed by over 5 hours on 26th May 2025 without any prior notification. I had to miss an important meeting in Delhi.",
+  "date_of_incident": "2025-05-26",
+  "location": "Mumbai Central Station",
+  "resolution_requested": "Refund of ticket amount or compensation voucher",
+  "submitted_on": "2025-05-27"
+}

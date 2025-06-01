@@ -1,0 +1,9 @@
+# Core dependencies
+google-generativeai
+python-dotenv
+pdfplumber
+sqlite-utils
+
+# Optional, for clean formatting or JSON handling
+rich
+
