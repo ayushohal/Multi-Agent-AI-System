@@ -45,13 +45,10 @@ Email Content:
     except Exception:
         response_dict = {"raw_response": cleaned_response}
 
-    # Use intent from response if not provided externally
-    detected_intent = intent or response_dict.get("intent", "Unknown")
-
     memory.log_entry(
         source="Email Agent",
         format="Email",
-        intent=detected_intent,
+        intent=intent,
         extracted_values=json.dumps(response_dict, indent=2),
         thread_id=thread_id
     )
