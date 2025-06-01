@@ -21,19 +21,24 @@ This repository contains a multi-agent AI system designed to classify, analyze, 
 ## Setup
 
 1. Create and activate your Python virtual environment:
+   
    python -m venv venv
    .\venv\Scripts\activate
    
 2. Install dependencies:
+   
    pip install -r requirements.txt
    Ensure you have your API keys configured for the LLM service as required by utils/llm_utils.py.
 
 3. Usage
+   
    Run the main script with the path to an input file:
    python main.py sample_inputs/sample_pdf1.pdf
 
 4. Sample Inputs
+   
    Sample input files are stored in sample_inputs folder with .json, .pdf, .txt extensions for json, pdf and email samples respectively.
 
 5. Logs and Output
+    
    Processed results and logs are saved in the memory.db SQLite database and can be viewed using any SQLite viewer. Sample output logs are stored in logs/
